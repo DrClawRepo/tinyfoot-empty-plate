@@ -28,10 +28,11 @@ import {
 } from "lucide-react";
 
 // Asset links
-const HERO_BANNER = "/manus-storage/hero_cover_47cdbd9b.png";
-const CHONGO_IMG = "/manus-storage/chongo_new_1fb89ae0.png";
-const BAILEY_IMG = "/manus-storage/bailey_new_378e45fe.png";
-const CHERRY_IMG = "/manus-storage/cherry_new_5917f3b4.png";
+const ASSET_BASE = `${import.meta.env.BASE_URL}manus-storage/`;
+const HERO_BANNER = `${ASSET_BASE}hero_cover_47cdbd9b.png`;
+const CHONGO_IMG = `${ASSET_BASE}chongo_new_1fb89ae0.png`;
+const BAILEY_IMG = `${ASSET_BASE}bailey_new_378e45fe.png`;
+const CHERRY_IMG = `${ASSET_BASE}cherry_new_5917f3b4.png`;
 
 // Extracted book pages for visual highlights
 const BOOK_PAGE_DELIVER = "https://d2xsxph8kpxj0f.cloudfront.net/310419663030293449/RrqpCJPbm3oKi52teDgLRZ/hero_banner-dAEtPJEhHtADdxRhhxNMtL.webp"; // fallback
